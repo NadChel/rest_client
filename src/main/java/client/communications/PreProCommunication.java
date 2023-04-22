@@ -25,14 +25,15 @@ public class PreProCommunication {
     public String getHeader() {
         ResponseEntity<List<User>> response = restTemplate.exchange(URL, HttpMethod.GET,
                 null, new ParameterizedTypeReference<>() {});
-        return response.getHeaders().getFirst("Set-Cookie");
+
+        return response.getHeaders().getFirst(HttpHeaders.SET_COOKIE);
     }
 
     public String getCodePartOne(String setCookieHeader) {
-        User jamesBrown = new User("James", "Brown", (byte)20);
+        User jamesBrown = new User(3L, "James", "Brown", (byte)20);
 
         HttpHeaders headers = new HttpHeaders();
-        headers.set("Set-Cookie", setCookieHeader);
+        headers.set("Cookie", setCookieHeader);
 
         RequestEntity<User> request = RequestEntity
                 .post(URI.create(URL))
@@ -40,14 +41,14 @@ public class PreProCommunication {
                 .body(jamesBrown);
         ResponseEntity<String> response = restTemplate.exchange(request, String.class);
 
-        System.out.println("statusCode in partOne (response): " + response.getStatusCode());
+        System.out.println("statusCode in partOne (response to POST): " + response.getStatusCode());
 
         RequestEntity<Void> request2 = RequestEntity
                 .get(URI.create(URL))
                 .headers(headers)
                 .build();
         ResponseEntity<List<User>> response2 = restTemplate.exchange(request2, new ParameterizedTypeReference<>() {});
-        System.out.println("statusCode in partOne (response2): " + response2.getStatusCode());
+        System.out.println("statusCode in partOne (response to GET): " + response2.getStatusCode());
 
         System.out.println("users in partOne: " + response2.getBody());
         return response.getBody();
@@ -56,7 +57,7 @@ public class PreProCommunication {
     public String getCodePartTwo(String setCookieHeader) {
         User thomasShelby = new User(3L, "Thomas", "Shelby", (byte)20);
         HttpHeaders headers = new HttpHeaders();
-        headers.set("Set-Cookie", setCookieHeader);
+        headers.set("Cookie", setCookieHeader);
         RequestEntity<User> request = RequestEntity
                 .put(URI.create(URL))
                 .headers(headers)
@@ -67,9 +68,9 @@ public class PreProCommunication {
 
     public String getCodePartThree(String setCookieHeader) {
         HttpHeaders headers = new HttpHeaders();
-        headers.set("Set-Cookie", setCookieHeader);
+        headers.set("Cookie", setCookieHeader);
         RequestEntity<Void> request = RequestEntity
-                .put(URI.create(URL + "/3"))
+                .delete(URI.create(URL + "/3"))
                 .headers(headers)
                 .build();
         ResponseEntity<String> response = restTemplate.exchange(request, String.class);

@@ -13,7 +13,9 @@ public class App {
         String partOne = preProCommunication.getCodePartOne(header);
         System.out.printf("partOne: %s\n", partOne);
         String partTwo = preProCommunication.getCodePartTwo(header);
+        System.out.printf("partTwo: %s\n", partTwo);
         String partThree = preProCommunication.getCodePartThree(header);
-        System.out.printf("partOne: %s;\npartTwo: %s;\npartThree: %s", partOne, partTwo, partThree);
+        System.out.printf("partThree: %s\n", partThree);
+        System.out.printf("code: %s\n", partOne + partTwo + partThree);
     }
 }
