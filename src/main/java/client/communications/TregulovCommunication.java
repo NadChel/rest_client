@@ -1,4 +1,4 @@
-package client;
+package client.communications;
 
 import client.models.Employee;
 import org.springframework.core.ParameterizedTypeReference;
@@ -10,12 +10,12 @@ import org.springframework.web.client.RestTemplate;
 import java.util.List;
 
 @Component
-public class Communication {
+public class TregulovCommunication {
     private final RestTemplate restTemplate;
 
     private final String URL = "http://localhost:8080/api/employees";
 
-    public Communication(RestTemplate restTemplate) {
+    public TregulovCommunication(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
 

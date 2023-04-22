@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="529ab8d5-463e-48f0-84a4-1d274fa07dae" name="Changes" comment="" />
+    <list default="true" id="529ab8d5-463e-48f0-84a4-1d274fa07dae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/communications/TregulovCommunication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/Communication$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/Communication.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -31,6 +43,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2NJV98WSW64c3aEMxDXNqTvIodJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,6 +52,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/NadChel/IdeaProjects/rest_client/src/main/java/client",
     "node.js.detected.package.eslint": "true",
@@ -61,7 +75,7 @@
       <module name="rest_client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="client.*" />
+          <option name="PATTERN" value="client.communications.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,7 +98,8 @@
       <option name="presentableId" value="Default" />
       <updated>1679382028466</updated>
       <workItem from="1679382030231" duration="1204000" />
-      <workItem from="1679383304355" duration="3840000" />
+      <workItem from="1679383304355" duration="4146000" />
+      <workItem from="1682140269494" duration="7159000" />
     </task>
     <servers />
   </component>
