@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="529ab8d5-463e-48f0-84a4-1d274fa07dae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/communications/TregulovCommunication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/Communication$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/Communication.class" beforeDir="false" />
+    <list default="true" id="529ab8d5-463e-48f0-84a4-1d274fa07dae" name="Changes" comment="адаптировано под решение ПП-задачи">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/models/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,12 +93,31 @@
       <updated>1679382028466</updated>
       <workItem from="1679382030231" duration="1204000" />
       <workItem from="1679383304355" duration="4146000" />
-      <workItem from="1682140269494" duration="7159000" />
+      <workItem from="1682140269494" duration="7473000" />
     </task>
+    <task id="LOCAL-00001" summary="адаптировано под решение ПП-задачи">
+      <created>1682147758868</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682147758868</updated>
+    </task>
+    <task id="LOCAL-00002" summary="адаптировано под решение ПП-задачи">
+      <created>1682147810464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682147810464</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="адаптировано под решение ПП-задачи" />
+    <option name="LAST_COMMIT_MESSAGE" value="адаптировано под решение ПП-задачи" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
